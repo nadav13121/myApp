@@ -1,0 +1,62 @@
+
+@media screen and (min-width:1200px){
+    .Image{
+        background: url($Login-logo) no-repeat;
+        background-size: 600px; 
+        height: 200px;
+        width: 610px;
+      }
+} 
+@media screen and (min-width:1000px) and (max-width:1200px){
+    .Image{
+        background: url($Login-logo) no-repeat;
+        background-size: 500px;
+        height: 170px;
+        width: 510px;
+      }
+}
+@media screen and (min-width:800px) and (max-width : 1000px) {
+  .Image{
+    background: url($Login-logo) no-repeat;
+    background-size: 400px; 
+    height: 120px;
+    width: 410px;
+  }
+}
+@media screen and (min-width:600px) and (max-width: 800px) {
+  .Image{
+    background: url($Login-logo) no-repeat;
+    background-size: 310px; 
+    height: 100px;
+    width: 370px;
+  }
+}
+@media screen and (min-width:600px) {
+  .container-image {
+    background: $button-blue;
+  }
+}
+@media screen and (max-width:600px) {
+  .leftGrid_logo {
+    background: url($Login-logo) no-repeat;
+    background-size: 200px; 
+    height: 75px;
+    width: 300px;
+    margin-right: 200px;
+  }
+  .leftGrid {
+    justify-content: left;
+  }
+}
+.login-title {
+  color: #2e384d;
+  font-family: Rubik;
+  font-size: 34px;
+  font-weight: 300;
+  margin-bottom: 0 0 40px 0;
+}
+.container-div{
+    width: 300px;
+  }
+
+  

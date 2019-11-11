@@ -1,10 +1,10 @@
 import React from 'react';
-import Login from './components/Login';
+import AppRouter from './routres/AppRouter';
 import './App.css';
 import './styles/styles.scss';
 
 const App: React.FC = () => {
-  return <Login/>;
+  return <AppRouter/>;
 }
 
 export default App;
